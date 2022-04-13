@@ -1,0 +1,50 @@
+
+
+
+
+
+/*heather-nesting*/
+
+.heather_nav {
+
+
+    display: flex;
+    justify-items: space-evenly;
+
+
+
+
+    li {
+        margin: 20px;
+        border: solid 1px $h2h3;
+        padding: 10px;
+        border-radius: 10px;
+        align-items: center;
+        display: inline;
+
+
+        a {
+            text-decoration: none;
+            color: $color-letra-nav;
+
+        &:hover{ background-color: #bb6262;
+            transform: rotate(10deg);   }
+        }
+
+        li:hover {
+            background-color: $lihover;
+        }
+
+    }
+}
+
+
+
+
+
+
+header {
+    background-color: #d1b6b4;
+}
+
+
