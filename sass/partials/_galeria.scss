@@ -2,11 +2,11 @@
 /* galeria*/
 
 
-@mixin hover-galeria { transform: translate(10px, 10px);}
+
 
 
 .hombre-oleo1:hover {
- @include hover-galeria;
+    transform: translate(10px, 10px)
 }
 
 .perfil-mujer-oleo1:hover {
